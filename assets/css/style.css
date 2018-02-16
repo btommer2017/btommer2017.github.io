@@ -264,3 +264,12 @@ div.boxContact {
     a:active {
         text-decoration: none;
     }
+
+    .text {
+        width: 98%;  
+    }
+
+    .message_text {
+        width: 98%;  
+        height: 50%;
+    }
