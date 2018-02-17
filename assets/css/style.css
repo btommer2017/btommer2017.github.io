@@ -51,12 +51,30 @@ footer, header, hgroup, menu, nav, section {
 
 html{
     width: 1060px;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(219, 211, 200);
 }
 body {
-    background-color: beige;
+    background-color: rgb(219, 211, 200);
     line-height: 1;
     width: 1060px;
+    height: 100%;
+    margin: 0;
 }
+
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
+
 ol, ul {
     list-style: none;
     color: #4aaaa5;
@@ -106,7 +124,7 @@ div.container2 {
 div.container3 {
     width: 650px; 
     height: 500;          
-    border: 2px  #ffffff;
+    border: 2px  #dddddd;
     margin-top: 20px;
     background-color: #ffffff;
     padding: 5px;   
@@ -180,16 +198,18 @@ div.InsideBox{
 div.header {
     width: 1060px;
     height: 75px;
-    border: .1px solid #ffffff;
+    border: .5px solid #cccccc;
     background-color: #ffffff;
 }
 
 div.main {
     width: 960px;
     height: 550px;
-    border: .1 solid #dddddd;
-    background-color: blanchedalmond;
+    border: 1px  #dddddd;
+    background-color:  rgb(219, 211, 200);
     margin-left: 9.434%;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /* About, Portfolio, Contacts Link Box */
@@ -282,3 +302,5 @@ div.boxContact {
         width: 98%;  
         height: 50%;
     }
+
+  
