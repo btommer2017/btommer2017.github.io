@@ -163,7 +163,7 @@ div.port2{
     position: absolute;
     text-align: center;
     color: white;
-}
+   }
 
     div.port3{
         margin-left: 50px;
@@ -192,7 +192,8 @@ div.InsideBox{
     background-color: #4aaaa5;
     position: absolute;
     top: 66%;
-    font-size: 25;
+    font-size: 18px;
+    opacity:.93;
 }
 
 div.header {
